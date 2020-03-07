@@ -1,0 +1,58 @@
+//@import "~/bootstrap/scss/bootstrap-sprockets";
+@import "bootstrap/scss/bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #ddd;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('jumbotron-background.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+
+.jumbotron h1 {
+  color : rgba(1, 1, 2, 0.527);
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+footer {
+    margin-top: 45px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
