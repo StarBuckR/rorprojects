@@ -1,6 +1,15 @@
 //@import "~/bootstrap/scss/bootstrap-sprockets";
 @import "bootstrap/scss/bootstrap";
 
+div.dropdown-menu {
+  background-color: #353a40;
+}
+
+a.dropdown-item {
+  background-color: #353a40;
+  color: #979a98; 
+}
+
 h1 {
   margin-top: 15px;
 }
